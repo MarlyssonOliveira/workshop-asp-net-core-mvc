@@ -20,6 +20,8 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
+
+            ViewData["Message"] = "Welcome to this section";
             return View();
         }
 
